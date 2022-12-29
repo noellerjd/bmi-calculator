@@ -1,0 +1,7 @@
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+height_round = round(float(height),2)
+weight_round = round(float(weight))
+bmi = weight_round / (height_round * height_round)
+print("Your BMI:")
+print(round(bmi))
